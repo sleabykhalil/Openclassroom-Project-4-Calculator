@@ -15,6 +15,20 @@ public class CalculatorTest {
         // Act
         int somme = calculator.add(a, b);
         // Assert
-        assertEquals(somme,3);
+        assertEquals(somme, 3);
+    }
+
+    @Test
+    void testMultiplyTowPositiveNumber() {
+        //Arrange
+        int a = 2;
+        int b = 5;
+        Calculator calculator = new Calculator();
+
+        //Act
+        Double result = calculator.multiply(a, b);
+
+        //Assert
+        assertEquals(result, 10);
     }
 }
