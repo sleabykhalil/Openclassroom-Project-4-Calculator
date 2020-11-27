@@ -6,7 +6,7 @@ public class Calculator {
         return a + b;
     }
 
-    public Double multiply(int a, int b) {
+    public Double produit(int a, int b) {
         return (double) (a * b);
     }
 }
